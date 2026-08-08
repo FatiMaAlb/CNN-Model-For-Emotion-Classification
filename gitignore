@@ -1,0 +1,17 @@
+# بيئة بايثون
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# أوزان النموذج والبيانات (كبيرة الحجم — لا تُرفع لـ GitHub عادة)
+*.pth
+*.pt
+*.h5
+model/*.pth
+data/
+checkpoint.pth
+
+# ملفات نظام
+.DS_Store
